@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Typography, Button, TextField, FormGroup, FormControlLabel, Checkbox,InputLabel, MenuItem, Select, FormControl } from '@mui/material';
+import { Typography, Button, TextField, FormGroup, FormControlLabel, Checkbox,InputLabel, MenuItem, Select, FormControl, AppBar, Toolbar } from '@mui/material';
 
 const Test = () => {
     const [inputs, setInputs] = useState({
@@ -52,6 +52,13 @@ const Test = () => {
                 </FormControl>
                 <Button type='submit'>Submit</Button>
             </form>
+
+            <AppBar >
+                <Toolbar>
+                    <Typography>LOGO</Typography>
+                    <Button variant='contained' sx={{marginLeft:"auto"}} color='warning'>Hello</Button>
+                </Toolbar>
+            </AppBar>
         </div>
     )
 }
