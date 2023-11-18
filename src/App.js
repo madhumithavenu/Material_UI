@@ -2,6 +2,7 @@
 // import Test2 from "./Test2";
 import Layout from "./Layout";
 import Test10 from "./Test10";
+import Test11 from "./Test11";
 import Test3 from "./Test3";
 import Test4 from "./Test4";
 import Test5 from "./Test5";
@@ -19,7 +20,7 @@ function App() {
      {/* <Test2 />  */}
      {/* <Test3/> */}
      {/* <Navbar links={linksArray}/> */}
-     <Test10/>
+     <Test11/>
     </div>
   );
 }
