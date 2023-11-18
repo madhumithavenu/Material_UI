@@ -1,7 +1,8 @@
 import { AppBar, Grid, Tab, Tabs, Toolbar, Typography } from '@mui/material'
-import React from 'react'
+import React, { useState } from 'react'
 import ShoppingCartCheckoutIcon from '@mui/icons-material/ShoppingCartCheckout';
 const Navbar = () => {
+    const [value, setValue] = useState();
   return (
     <>
     {/* <Grid container>
@@ -18,7 +19,7 @@ const Navbar = () => {
                 </Typography>
             </Grid>
             <Grid item xs={5}>
-                <Tabs textColor='inherit' value={0}>
+                <Tabs indicatorColor='secondary' textColor='inherit' value={value} onChange={(e,val)=>setValue(val)}>
                     <Tab label="Products"/>
                     <Tab label="Overview"/>
                     <Tab label="Pricing"/>
