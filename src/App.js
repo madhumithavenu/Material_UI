@@ -9,13 +9,14 @@ import Test7 from "./Test7";
 import Test8 from "./Test8";
 import Navbar from "./components/Navbar";
 
+const linksArray = ["Products","Services","Overview","Contact Us"]
 
 function App() {
   return (
     <div >
      {/* <Test2 />  */}
      {/* <Test3/> */}
-     <Navbar/>
+     <Navbar links={linksArray}/>
     </div>
   );
 }
