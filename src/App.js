@@ -7,6 +7,7 @@ import Test5 from "./Test5";
 import Test6 from "./Test6";
 import Test7 from "./Test7";
 import Test8 from "./Test8";
+import Test9 from "./Test9";
 import Navbar from "./components/Navbar";
 
 const linksArray = ["Products","Services","Overview","Contact Us"]
@@ -16,7 +17,8 @@ function App() {
     <div >
      {/* <Test2 />  */}
      {/* <Test3/> */}
-     <Navbar links={linksArray}/>
+     {/* <Navbar links={linksArray}/> */}
+     <Test9/>
     </div>
   );
 }
