@@ -1,5 +1,6 @@
 // import Test from "./Test";
 // import Test2 from "./Test2";
+import Auth from "./Auth";
 import Layout from "./Layout";
 import Test10 from "./Test10";
 import Test11 from "./Test11";
@@ -22,7 +23,7 @@ function App() {
      {/* <Test2 />  */}
      {/* <Test3/> */}
      {/* <Navbar links={linksArray}/> */}
-     <Test13/>
+     <Auth/>
     </div>
   );
 }
